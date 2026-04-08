@@ -2,8 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     CFPropertyList (2.3.5)
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     babosa (1.0.2)
     claide (1.0.2)
     colored (1.2)
@@ -57,9 +57,6 @@ GEM
       xcodeproj (>= 1.5.0, < 2.0.0)
       xcpretty (>= 0.2.4, < 1.0.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-appicon (0.10.0)
-      json
-      mini_magick (~> 4.5.1)
     gh_inspector (1.0.3)
     google-api-client (0.13.6)
       addressable (~> 2.5, >= 2.5.1)
@@ -137,7 +134,6 @@ PLATFORMS
 
 DEPENDENCIES
   fastlane
-  fastlane-plugin-appicon
 
 BUNDLED WITH
    1.14.6
